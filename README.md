@@ -269,24 +269,17 @@ Have you used the theme on your website? Send a PR to add it to the list for ins
 	<tbody>
 		<tr>
             <td align="center">
+                <a href="https://github.com/Bartyboy321">
+                    <img src="https://avatars.githubusercontent.com/u/23619049?v=4" width="100;" alt="Bartyboy321"/>
+                    <br />
+                    <sub><b>Bartyboy321</b></sub>
+                </a>
+            </td>
+            <td align="center">
                 <a href="https://github.com/zetxek">
                     <img src="https://avatars.githubusercontent.com/u/240085?v=4" width="100;" alt="zetxek"/>
                     <br />
                     <sub><b>Adrián Moreno Peña</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/mnordhaus">
-                    <img src="https://avatars.githubusercontent.com/u/1510804?v=4" width="100;" alt="mnordhaus"/>
-                    <br />
-                    <sub><b>mnordhaus</b></sub>
-                </a>
-            </td>
-            <td align="center">
-                <a href="https://github.com/dcorto">
-                    <img src="https://avatars.githubusercontent.com/u/5486937?v=4" width="100;" alt="dcorto"/>
-                    <br />
-                    <sub><b>D. Corto</b></sub>
                 </a>
             </td>
             <td align="center">
@@ -308,6 +301,13 @@ Have you used the theme on your website? Send a PR to add it to the list for ins
                     <img src="https://avatars.githubusercontent.com/u/22161574?v=4" width="100;" alt="fhinok"/>
                     <br />
                     <sub><b>Sämi Will</b></sub>
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://github.com/dcorto">
+                    <img src="https://avatars.githubusercontent.com/u/5486937?v=4" width="100;" alt="dcorto"/>
+                    <br />
+                    <sub><b>D. Corto</b></sub>
                 </a>
             </td>
 		</tr>
