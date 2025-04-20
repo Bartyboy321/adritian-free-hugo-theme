@@ -10,8 +10,8 @@ draft = false
     subtitle="Subtitle - coming from <code>home.md</code>"
     buttonText="Email"
     description="<strong>Strong</strong> and normal text. This comes from <a href='https://github.com/zetxek/adritian-demo/blob/main/content/home/home.md?plain=1'><code>home.md</code></a>, using the <code>showcase-section</code> shortcode.<br/>Below you can see the social links, provided by the <code>platform-links</code> shortcode."
-    image="images/showcase/showcase.png"
-    image2x="images/showcase/showcase@2x.png"
+    imgSrc="images/showcase/showcase.png"
+    imgScale="0.5"
  >}}
 
 {{< platform-links >}}
@@ -45,9 +45,8 @@ draft = false
     button_icon="icon-user"
     button_text="You can edit the text, link and icon"
     button_url="https://www.google.com"
-    image="images/about/user-picture.png"
-    image2x="images/about/user-picture@2x.png"
-
+    imgSrc="images/about/user-picture.png"
+    imgScale="0.5"
  >}}
 
 {{< education-list
@@ -66,9 +65,9 @@ draft = false
     button3_url="/experience"
 >}}
 
-## Experience (as list)
-
-{{< experience-list >}}
+{{< experience-list
+    title="Experience (as list)"
+    padding="false" >}}
 
 {{< client-and-work-section
     title="A selection of my work" >}} 
@@ -76,32 +75,21 @@ draft = false
 {{< testimonial-section
     title="What they say about me" >}}
 
-{{< contact-section
-    title="Reach out" 
-    contact_form_name="Your name?"
-    contact_form_email="Your e-mail"
-    contact_form_message="Your text"
-    contact_button="Send message"
-    contact_phone_title="My phone"
-    contact_phone_number="<a href='tel:+555666777'>555 666 777</a>"
-    contact_email_title="My mail"
-    contact_email_email="demo@demosite.com"
-    contact_address_title="My location"
-    contact_address_address="🇩🇰 Denmark"
-    form_action="https://formspree.io/f/info@adrianmoreno.info"
-    form_method="POST"
+{{< spacer size="large" >}}
+
+## Extra home content
+
+Additional content added after the `section` blocks, in the `home.md` file. 
+
+Here you could freestyle, add other shortcodes, ...  Or just let the content empty, and rely on the shortcode sections alone.
+
+{{< spacer size="small" >}}
+
+{{< text-section
+title="Extra (centered) content"
+centered="true"
 >}}
 
-{{< newsletter-section 
-    newsletter_title="Stay updated"
-    newsletter_placeholder="Enter your email"
-    newsletter_button="Subscribe"
-    newsletter_success_message="Thank you for subscribing!"
-    newsletter_error_message="Something went wrong, please try again."
-    newsletter_note="We respect your privacy and won't share your data."
-    form_action="/"
-    form_method="POST"
->}}
+You can also use the `text-section` shortcode to add centered texts
 
-## Extra content
-Additional content added after the `section` blocks. Here you could freestyle, add other shortcodes, ...  Or just let the content empty, and rely on the shortcode sections alone.
+{{< /text-section >}}
